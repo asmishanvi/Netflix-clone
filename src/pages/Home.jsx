@@ -12,6 +12,7 @@ const Home = () => {
     <Row rowID='3' title='Upcoming' fetchURL={requests.requestUpcoming} />
     <Row rowID='4' title='Popular' fetchURL={requests.requestPopular} />
     <Row rowID='5' title='horror' fetchURL={requests.requestHorror} />
+    {/* title='horror' fetchURL={requests.requestHorror} /> */}
     </>
   )
 }
